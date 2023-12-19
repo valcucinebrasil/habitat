@@ -23,6 +23,14 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'adicionar',
+    loadChildren: () => import('./pages/adicionar/adicionar.module').then( m => m.AdicionarPageModule)
+  },
+  {
+    path: 'minha-cozinha',
+    loadChildren: () => import('./pages/minha-cozinha/minha-cozinha.module').then( m => m.MinhaCozinhaPageModule)
   }
 ];
 

@@ -1,0 +1,43 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="dark">
+    <ion-title>Minha Valcucine</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img
+      src="https://www.valcucine.com/uploads/main_slider/big/2247_artematica_kitchen_modern_and_luxury_kitchen.jpg"
+      alt="Cozinha Valcucine"
+    />
+    <ion-card-header>
+      <ion-card-title>Artematica</ion-card-title>
+      <ion-card-subtitle>A arte dos volumes puros <br /></ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Não há fronteira entre criatividade e inovação, entre a arte de brincar
+      com cores e materiais ea matemática dos volumes puros
+    </ion-card-content>
+  </ion-card>
+  <ion-accordion-group >
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Manual do usuário</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Aqui você encontra o manual da sua Valcucine</div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Manutenção</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Saiba como fazer manutenção em sua Valcucine</div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="light">
+        <ion-label>Assistência Técnica</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">Solicite assistência para a sua Valcucine</div>
+
+    </ion-accordion>
+  </ion-accordion-group>
+</ion-content>
