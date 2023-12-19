@@ -4,7 +4,13 @@
       <ion-content>
         <ion-list id="inbox-list">
           <ion-list-header>Habitat Experience</ion-list-header>
-          <ion-note>Bem-vindo (a) </ion-note>
+          <ion-note>Bem-vindo (a) </ion-note><br/>
+          <ion-chip >
+            <ion-avatar >
+              <img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="Silhouette of a person's head">
+            </ion-avatar>
+            <ion-label>Usuário X</ion-label>
+          </ion-chip>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
             <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
