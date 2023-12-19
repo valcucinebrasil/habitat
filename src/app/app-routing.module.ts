@@ -31,6 +31,10 @@ const routes: Routes = [
   {
     path: 'minha-cozinha',
     loadChildren: () => import('./pages/minha-cozinha/minha-cozinha.module').then( m => m.MinhaCozinhaPageModule)
+  },
+  {
+    path: 'fornecedores',
+    loadChildren: () => import('./pages/fornecedores/fornecedores.module').then( m => m.FornecedoresPageModule)
   }
 ];
 
