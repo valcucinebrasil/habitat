@@ -1,3 +1,13 @@
+.ion-padding{
+  display: flex;
+  text-align: center;
+
+}
+ion-content{
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
 .flex-center{
   display:flex;
   justify-content: center;
