@@ -4,23 +4,38 @@
       <ion-content>
         <ion-list id="inbox-list">
           <ion-list-header>Habitat Experience</ion-list-header>
-          <ion-note>Bem-vindo (a) </ion-note><br/>
-          <ion-chip >
-            <ion-avatar >
-              <img src="https://ionicframework.com/docs/img/demos/avatar.svg" alt="Silhouette of a person's head">
+          <ion-note>Bem-vindo (a) </ion-note><br />
+          <ion-chip>
+            <ion-avatar>
+              <img
+                src="https://www.unimed.coop.br/documents/20182/17529841/capa_saudedohomem.jpg/dd6ecabe-abf3-43e4-8e08-a8ef6b17e89d?t=1665511907455"
+                alt="Silhouette of a person's head"
+              />
             </ion-avatar>
-            <ion-label>Usuário X</ion-label>
+            <ion-label>Marcello Ribeiro</ion-label>
           </ion-chip>
 
-          <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
-            <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
-              <ion-icon aria-hidden="true" slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
+          <ion-menu-toggle
+            auto-hide="false"
+            *ngFor="let p of appPages; let i = index"
+          >
+            <ion-item
+              routerDirection="root"
+              [routerLink]="[p.url]"
+              lines="none"
+              detail="false"
+              routerLinkActive="selected"
+            >
+              <ion-icon
+                aria-hidden="true"
+                slot="start"
+                [ios]="p.icon + '-outline'"
+                [md]="p.icon + '-sharp'"
+              ></ion-icon>
               <ion-label>{{ p.title }}</ion-label>
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
-
-
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>

@@ -117,3 +117,13 @@ ion-note {
 ion-item.selected {
   --color: var(--ion-color-primary);
 }
+ion-avatar{
+  height: auto;
+  width: 150px;
+}
+ion-avatar{
+  img{
+    height: 45px;
+    width: 45px;
+  }
+}

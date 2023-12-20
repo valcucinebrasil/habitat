@@ -39,6 +39,14 @@ const routes: Routes = [
   {
     path: 'status-projeto',
     loadChildren: () => import('./pages/status-projeto/status-projeto.module').then( m => m.StatusProjetoPageModule)
+  },
+  {
+    path: 'solicitacoes',
+    loadChildren: () => import('./pages/solicitacoes/solicitacoes.module').then( m => m.SolicitacoesPageModule)
+  },
+  {
+    path: 'all-solicitacoes',
+    loadChildren: () => import('./pages/all-solicitacoes/all-solicitacoes.module').then( m => m.AllSolicitacoesPageModule)
   }
 ];
 
