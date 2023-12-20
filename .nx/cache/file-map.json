@@ -1,0 +1,447 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@angular/animations": "^17.0.2",
+    "@angular/common": "^17.0.2",
+    "@angular/compiler": "^17.0.2",
+    "@angular/core": "^17.0.2",
+    "@angular/forms": "^17.0.2",
+    "@angular/platform-browser": "^17.0.2",
+    "@angular/platform-browser-dynamic": "^17.0.2",
+    "@angular/router": "^17.0.2",
+    "@capacitor/app": "5.0.6",
+    "@capacitor/core": "5.6.0",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/keyboard": "5.0.7",
+    "@capacitor/push-notifications": "^5.1.0",
+    "@capacitor/status-bar": "5.0.6",
+    "@ionic/angular": "^7.0.0",
+    "ionicons": "^7.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.0.0",
+    "@angular-eslint/builder": "^17.0.0",
+    "@angular-eslint/eslint-plugin": "^17.0.0",
+    "@angular-eslint/eslint-plugin-template": "^17.0.0",
+    "@angular-eslint/schematics": "^17.0.0",
+    "@angular-eslint/template-parser": "^17.0.0",
+    "@angular/cli": "^17.0.0",
+    "@angular/compiler-cli": "^17.0.2",
+    "@angular/language-service": "^17.0.2",
+    "@capacitor/cli": "5.6.0",
+    "@ionic/angular-toolkit": "^9.0.0",
+    "@types/jasmine": "~5.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsdoc": "30.7.6",
+    "eslint-plugin-prefer-arrow": "1.2.2",
+    "jasmine-core": "~5.1.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "ts-node": "^8.3.0",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".browserslistrc",
+        "hash": "7979060078399394427"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18210278994710539225"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "91109559695469517"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "592272277800690021"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "1151538777131426085"
+      },
+      {
+        "file": "README.md",
+        "hash": "7761387742622804833"
+      },
+      {
+        "file": "angular.json",
+        "hash": "12609113634043900485"
+      },
+      {
+        "file": "capacitor.config.ts",
+        "hash": "13604715087041525888"
+      },
+      {
+        "file": "ionic.config.json",
+        "hash": "3956593417585875536"
+      },
+      {
+        "file": "karma.conf.js",
+        "hash": "13719387092471133633"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12032888067154000508"
+      },
+      {
+        "file": "package.json",
+        "hash": "9225689805905560066"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "14698053085175209971"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "2528082826163410731"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "5696135662736585118"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "3120772876538250633"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "16517004961230538039"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "5073765293049625490"
+      },
+      {
+        "file": "src/app/components/pickup-call-card/pickup-call-card.component.html",
+        "hash": "17526875532078006941"
+      },
+      {
+        "file": "src/app/components/pickup-call-card/pickup-call-card.component.scss",
+        "hash": "15608274124143386391"
+      },
+      {
+        "file": "src/app/components/pickup-call-card/pickup-call-card.component.spec.ts",
+        "hash": "7963827745153623169"
+      },
+      {
+        "file": "src/app/components/pickup-call-card/pickup-call-card.component.ts",
+        "hash": "12781558875452559997"
+      },
+      {
+        "file": "src/app/pages/adicionar/adicionar-routing.module.ts",
+        "hash": "18057498205952912259"
+      },
+      {
+        "file": "src/app/pages/adicionar/adicionar.module.ts",
+        "hash": "2673124993669702161"
+      },
+      {
+        "file": "src/app/pages/adicionar/adicionar.page.html",
+        "hash": "8435853998358446889"
+      },
+      {
+        "file": "src/app/pages/adicionar/adicionar.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/adicionar/adicionar.page.spec.ts",
+        "hash": "17271860676694384207"
+      },
+      {
+        "file": "src/app/pages/adicionar/adicionar.page.ts",
+        "hash": "12360916338228963714"
+      },
+      {
+        "file": "src/app/pages/all-solicitacoes/all-solicitacoes-routing.module.ts",
+        "hash": "1682390864409957332"
+      },
+      {
+        "file": "src/app/pages/all-solicitacoes/all-solicitacoes.module.ts",
+        "hash": "12741462318007422911"
+      },
+      {
+        "file": "src/app/pages/all-solicitacoes/all-solicitacoes.page.html",
+        "hash": "1360136954095864639"
+      },
+      {
+        "file": "src/app/pages/all-solicitacoes/all-solicitacoes.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/all-solicitacoes/all-solicitacoes.page.spec.ts",
+        "hash": "13607702123900676019"
+      },
+      {
+        "file": "src/app/pages/all-solicitacoes/all-solicitacoes.page.ts",
+        "hash": "5432365387434445327"
+      },
+      {
+        "file": "src/app/pages/fornecedores/fornecedores-routing.module.ts",
+        "hash": "16698485103255419669"
+      },
+      {
+        "file": "src/app/pages/fornecedores/fornecedores.module.ts",
+        "hash": "13249292705019809201"
+      },
+      {
+        "file": "src/app/pages/fornecedores/fornecedores.page.html",
+        "hash": "9149230707716762794"
+      },
+      {
+        "file": "src/app/pages/fornecedores/fornecedores.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/fornecedores/fornecedores.page.spec.ts",
+        "hash": "78502928480443695"
+      },
+      {
+        "file": "src/app/pages/fornecedores/fornecedores.page.ts",
+        "hash": "3912330589693112680"
+      },
+      {
+        "file": "src/app/pages/home/home-routing.module.ts",
+        "hash": "10197262553865492585"
+      },
+      {
+        "file": "src/app/pages/home/home.module.ts",
+        "hash": "5932846921895251170"
+      },
+      {
+        "file": "src/app/pages/home/home.page.html",
+        "hash": "1389940806366444540"
+      },
+      {
+        "file": "src/app/pages/home/home.page.scss",
+        "hash": "13412107516474860833"
+      },
+      {
+        "file": "src/app/pages/home/home.page.spec.ts",
+        "hash": "3212064809614742560"
+      },
+      {
+        "file": "src/app/pages/home/home.page.ts",
+        "hash": "8227317010107753460"
+      },
+      {
+        "file": "src/app/pages/loader/loader-routing.module.ts",
+        "hash": "5885642581501496822"
+      },
+      {
+        "file": "src/app/pages/loader/loader.module.ts",
+        "hash": "11842014799490603038"
+      },
+      {
+        "file": "src/app/pages/loader/loader.page.html",
+        "hash": "6499773512703032042"
+      },
+      {
+        "file": "src/app/pages/loader/loader.page.scss",
+        "hash": "6428849917162509588"
+      },
+      {
+        "file": "src/app/pages/loader/loader.page.spec.ts",
+        "hash": "10577702744385409272"
+      },
+      {
+        "file": "src/app/pages/loader/loader.page.ts",
+        "hash": "6459411916549750986"
+      },
+      {
+        "file": "src/app/pages/login/login-routing.module.ts",
+        "hash": "15207053381291759772"
+      },
+      {
+        "file": "src/app/pages/login/login.module.ts",
+        "hash": "17712010613817365668"
+      },
+      {
+        "file": "src/app/pages/login/login.page.html",
+        "hash": "14984551394163939536"
+      },
+      {
+        "file": "src/app/pages/login/login.page.scss",
+        "hash": "8189757010498813466"
+      },
+      {
+        "file": "src/app/pages/login/login.page.spec.ts",
+        "hash": "11622843872418222859"
+      },
+      {
+        "file": "src/app/pages/login/login.page.ts",
+        "hash": "2975927148748882822"
+      },
+      {
+        "file": "src/app/pages/minha-cozinha/minha-cozinha-routing.module.ts",
+        "hash": "12422828083498151301"
+      },
+      {
+        "file": "src/app/pages/minha-cozinha/minha-cozinha.module.ts",
+        "hash": "4501082039544214021"
+      },
+      {
+        "file": "src/app/pages/minha-cozinha/minha-cozinha.page.html",
+        "hash": "1495503307626965879"
+      },
+      {
+        "file": "src/app/pages/minha-cozinha/minha-cozinha.page.scss",
+        "hash": "5093516479970288569"
+      },
+      {
+        "file": "src/app/pages/minha-cozinha/minha-cozinha.page.spec.ts",
+        "hash": "16020861328257253934"
+      },
+      {
+        "file": "src/app/pages/minha-cozinha/minha-cozinha.page.ts",
+        "hash": "5284415183016983356"
+      },
+      {
+        "file": "src/app/pages/registrar/registrar-routing.module.ts",
+        "hash": "12268600909706134493"
+      },
+      {
+        "file": "src/app/pages/registrar/registrar.module.ts",
+        "hash": "11955963984384711064"
+      },
+      {
+        "file": "src/app/pages/registrar/registrar.page.html",
+        "hash": "1907928617017641953"
+      },
+      {
+        "file": "src/app/pages/registrar/registrar.page.scss",
+        "hash": "5372765709556075336"
+      },
+      {
+        "file": "src/app/pages/registrar/registrar.page.spec.ts",
+        "hash": "17853006228855741937"
+      },
+      {
+        "file": "src/app/pages/registrar/registrar.page.ts",
+        "hash": "12943753457481975727"
+      },
+      {
+        "file": "src/app/pages/solicitacoes/solicitacoes-routing.module.ts",
+        "hash": "9718422464869574043"
+      },
+      {
+        "file": "src/app/pages/solicitacoes/solicitacoes.module.ts",
+        "hash": "4674927087723353313"
+      },
+      {
+        "file": "src/app/pages/solicitacoes/solicitacoes.page.html",
+        "hash": "2844949182481271787"
+      },
+      {
+        "file": "src/app/pages/solicitacoes/solicitacoes.page.scss",
+        "hash": "16088095716424852153"
+      },
+      {
+        "file": "src/app/pages/solicitacoes/solicitacoes.page.spec.ts",
+        "hash": "257025150798281816"
+      },
+      {
+        "file": "src/app/pages/solicitacoes/solicitacoes.page.ts",
+        "hash": "9678771774874859843"
+      },
+      {
+        "file": "src/app/pages/status-projeto/status-projeto-routing.module.ts",
+        "hash": "633996223292354901"
+      },
+      {
+        "file": "src/app/pages/status-projeto/status-projeto.module.ts",
+        "hash": "13038377107554575395"
+      },
+      {
+        "file": "src/app/pages/status-projeto/status-projeto.page.html",
+        "hash": "16880352026732073984"
+      },
+      {
+        "file": "src/app/pages/status-projeto/status-projeto.page.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/pages/status-projeto/status-projeto.page.spec.ts",
+        "hash": "4670867610392271154"
+      },
+      {
+        "file": "src/app/pages/status-projeto/status-projeto.page.ts",
+        "hash": "14298642736298140644"
+      },
+      {
+        "file": "src/assets/icon/favicon.png",
+        "hash": "17482944836898362639"
+      },
+      {
+        "file": "src/assets/shapes.svg",
+        "hash": "4708889011185296100"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "5406836414239361753"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "17458466784506237106"
+      },
+      {
+        "file": "src/global.scss",
+        "hash": "13805511970961492627"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "5322466148090818784"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "3447864527603543144"
+      },
+      {
+        "file": "src/polyfills.ts",
+        "hash": "16163444994210036896"
+      },
+      {
+        "file": "src/test.ts",
+        "hash": "12412031923219697029"
+      },
+      {
+        "file": "src/theme/variables.scss",
+        "hash": "10683809365950317113"
+      },
+      {
+        "file": "src/zone-flags.ts",
+        "hash": "3323586086306676158"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "9041030522571917449"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9300148005582941852"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "17198424518534092990"
+      }
+    ]
+  }
+}
