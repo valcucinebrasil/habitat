@@ -11,6 +11,8 @@ import { AllSolicitacoesPageRoutingModule } from './all-solicitacoes-routing.mod
 
 import { AllSolicitacoesPage } from './all-solicitacoes.page';
 
+import { PickupCallCardModule} from '../../components/pickup-call-components.module'
+
 
 
 
@@ -20,7 +22,7 @@ import { AllSolicitacoesPage } from './all-solicitacoes.page';
     FormsModule,
     IonicModule,
     AllSolicitacoesPageRoutingModule,
-
+    PickupCallCardModule
 
   ],
   declarations: [AllSolicitacoesPage,
