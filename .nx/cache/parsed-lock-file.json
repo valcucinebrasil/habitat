@@ -243,6 +243,15 @@
         "hash": "sha512-rUFPe1uDlYYw6+3Gq68czW7WxBH7zT/D3UsT1otqwUV4RnQQsVze4fIit9FqJh7tuP4y3WpB4XBNf7p7Oi6TJw=="
       }
     },
+    "npm:@angular/service-worker": {
+      "type": "npm",
+      "name": "npm:@angular/service-worker",
+      "data": {
+        "version": "17.0.7",
+        "packageName": "@angular/service-worker",
+        "hash": "sha512-R/KDgnq5gV9XRv1B8zQqWz64pJ3fb0oFwCkB+w07llbxC9KDUS4MLbMmN3q/TSLOshGzs4sszNVyWGKAiTP13g=="
+      }
+    },
     "npm:@assemblyscript/loader": {
       "type": "npm",
       "name": "npm:@assemblyscript/loader",
@@ -1309,18 +1318,18 @@
       "type": "npm",
       "name": "npm:@capacitor/core",
       "data": {
-        "version": "6.0.0-beta.2",
+        "version": "5.6.0",
         "packageName": "@capacitor/core",
-        "hash": "sha512-gaJqeAA/GeOtaXH55Xx8Xod/bQfHZNovfhuY6ZjOPcASTHuO9HxzRYANVJD36ZluG0SWwRmx0xcbL0tuUAogcQ=="
+        "hash": "sha512-xJhCOUGPHw0QYDA3YH+CmL6qiV9DH4Ij3yPxSenymjrtLuXI197u9ddCZwGEwgVIkh9kGZBBKzsNkn89SZ2gdQ=="
       }
     },
     "npm:@capacitor/haptics": {
       "type": "npm",
       "name": "npm:@capacitor/haptics",
       "data": {
-        "version": "6.0.0-beta.1",
+        "version": "5.0.6",
         "packageName": "@capacitor/haptics",
-        "hash": "sha512-c+ec1WBjDu0KkHiVkAsaZWGPcCRXpgTkr1M/ZDpg7AoNmy0N8SGTlDFKHY+/6KTHKego3efv6h/yb0eLvncHdw=="
+        "hash": "sha512-UrMcR7p2X10ql4VLlowUuH/VckTeu0lj+RQpekxox14uxDmu5AGIFDK/iDTi8W6QZkxTJRZK6sbCjgwYgNJ7Pw=="
       }
     },
     "npm:@capacitor/keyboard": {
@@ -1345,9 +1354,9 @@
       "type": "npm",
       "name": "npm:@capacitor/status-bar",
       "data": {
-        "version": "6.0.0-beta.1",
+        "version": "5.0.6",
         "packageName": "@capacitor/status-bar",
-        "hash": "sha512-br5vndNfzgyKWGOeHCHLtt+s7cPXiEyMW7iAptTX8PD66sEUSIcad50hmZuabLeMvSKkHbZAZcPHX820Kq8WpQ=="
+        "hash": "sha512-7od8CxsBnot1XMK3IeOkproFL4hgoKoWAc3pwUvmDOkQsXoxwQm4SR9mLwQavv1XfxtHbFV9Ukd7FwMxOPSViw=="
       }
     },
     "npm:@colors/colors": {
@@ -10613,6 +10622,11 @@
     },
     {
       "source": "npm:@angular-devkit/build-angular",
+      "target": "npm:@angular/service-worker",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular-devkit/build-angular",
       "target": "npm:karma",
       "type": "static"
     },
@@ -11473,6 +11487,21 @@
     },
     {
       "source": "npm:@angular/router",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/service-worker",
+      "target": "npm:@angular/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/service-worker",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@angular/service-worker",
       "target": "npm:tslib",
       "type": "static"
     },
@@ -13499,6 +13528,16 @@
     {
       "source": "npm:@capacitor/core",
       "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@capacitor/haptics",
+      "target": "npm:@capacitor/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@capacitor/status-bar",
+      "target": "npm:@capacitor/core",
       "type": "static"
     },
     {

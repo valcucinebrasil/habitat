@@ -13,10 +13,10 @@
     "@angular/service-worker": "^17.0.2",
     "@capacitor/app": "next",
     "@capacitor/core": "next",
-    "@capacitor/haptics": "next",
+    "@capacitor/haptics": "5.0.6",
     "@capacitor/keyboard": "next",
     "@capacitor/push-notifications": "next",
-    "@capacitor/status-bar": "next",
+    "@capacitor/status-bar": "5.0.6",
     "@ionic/angular": "^7.0.0",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
@@ -72,6 +72,22 @@
         "hash": "91109559695469517"
       },
       {
+        "file": ".nx/cache/file-map.json",
+        "hash": "5332065953543709185"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "7650657662886778860"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "986018342329414341"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "8386201364873606811"
+      },
+      {
         "file": ".vscode/extensions.json",
         "hash": "592272277800690021"
       },
@@ -85,11 +101,11 @@
       },
       {
         "file": "angular.json",
-        "hash": "12609113634043900485"
+        "hash": "7756051909131682457"
       },
       {
         "file": "capacitor.config.ts",
-        "hash": "13604715087041525888"
+        "hash": "3488219375609533661"
       },
       {
         "file": "ionic.config.json",
@@ -100,12 +116,16 @@
         "hash": "13719387092471133633"
       },
       {
+        "file": "ngsw-config.json",
+        "hash": "15102878750620947178"
+      },
+      {
         "file": "package-lock.json",
-        "hash": "12032888067154000508"
+        "hash": "15361413301338154323"
       },
       {
         "file": "package.json",
-        "hash": "9225689805905560066"
+        "hash": "888618851784859063"
       },
       {
         "file": "src/app/app-routing.module.ts",
@@ -129,15 +149,15 @@
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "5073765293049625490"
+        "hash": "18015187364507430097"
       },
       {
         "file": "src/app/components/pickup-call-card/pickup-call-card.component.html",
-        "hash": "17526875532078006941"
+        "hash": "16704448352724487211"
       },
       {
         "file": "src/app/components/pickup-call-card/pickup-call-card.component.scss",
-        "hash": "15608274124143386391"
+        "hash": "3244421341483603138"
       },
       {
         "file": "src/app/components/pickup-call-card/pickup-call-card.component.spec.ts",
@@ -145,7 +165,11 @@
       },
       {
         "file": "src/app/components/pickup-call-card/pickup-call-card.component.ts",
-        "hash": "12781558875452559997"
+        "hash": "10464639314957481827"
+      },
+      {
+        "file": "src/app/components/pickup-call-components.module.ts",
+        "hash": "4501467896444906690"
       },
       {
         "file": "src/app/pages/adicionar/adicionar-routing.module.ts",
@@ -177,11 +201,11 @@
       },
       {
         "file": "src/app/pages/all-solicitacoes/all-solicitacoes.module.ts",
-        "hash": "12741462318007422911"
+        "hash": "8189065745092214694"
       },
       {
         "file": "src/app/pages/all-solicitacoes/all-solicitacoes.page.html",
-        "hash": "1360136954095864639"
+        "hash": "18010392176712177632"
       },
       {
         "file": "src/app/pages/all-solicitacoes/all-solicitacoes.page.scss",
@@ -225,7 +249,7 @@
       },
       {
         "file": "src/app/pages/home/home.module.ts",
-        "hash": "5932846921895251170"
+        "hash": "11140511042317724001"
       },
       {
         "file": "src/app/pages/home/home.page.html",
@@ -392,6 +416,38 @@
         "hash": "17482944836898362639"
       },
       {
+        "file": "src/assets/icons/icon-128x128.png",
+        "hash": "16119513566521364320"
+      },
+      {
+        "file": "src/assets/icons/icon-144x144.png",
+        "hash": "7918264055681161054"
+      },
+      {
+        "file": "src/assets/icons/icon-152x152.png",
+        "hash": "15801439294603939434"
+      },
+      {
+        "file": "src/assets/icons/icon-192x192.png",
+        "hash": "5426725225393538606"
+      },
+      {
+        "file": "src/assets/icons/icon-384x384.png",
+        "hash": "14349113523743396697"
+      },
+      {
+        "file": "src/assets/icons/icon-512x512.png",
+        "hash": "15496412176428542718"
+      },
+      {
+        "file": "src/assets/icons/icon-72x72.png",
+        "hash": "8211841038932698272"
+      },
+      {
+        "file": "src/assets/icons/icon-96x96.png",
+        "hash": "17857169027528193372"
+      },
+      {
         "file": "src/assets/shapes.svg",
         "hash": "4708889011185296100"
       },
@@ -409,11 +465,15 @@
       },
       {
         "file": "src/index.html",
-        "hash": "5322466148090818784"
+        "hash": "4818279439494795240"
       },
       {
         "file": "src/main.ts",
         "hash": "3447864527603543144"
+      },
+      {
+        "file": "src/manifest.webmanifest",
+        "hash": "10078094709780095471"
       },
       {
         "file": "src/polyfills.ts",
