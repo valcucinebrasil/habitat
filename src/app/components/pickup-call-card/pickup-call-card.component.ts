@@ -11,7 +11,19 @@ export class PickupCallCardComponent  implements OnInit {
   @Input () hasFooter:boolean=true;
 
 
-  constructor() { }
+  @Input () status: string;
+  @Input () upDateAt: string;
+  @Input () createdAt: string;
+  @Input () notes: string;
+
+
+
+  constructor() {
+    this.status='';
+    this.upDateAt='';
+    this.createdAt='';
+    this.notes='';
+}
 
   ngOnInit() {}
 

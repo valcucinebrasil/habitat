@@ -2,18 +2,19 @@
   <ion-card-header *ngIf="hasHeader">Atualizações </ion-card-header>
   <ion-card-content>
     <ion-item lines="nome">
+
       <ion-icon
         name="hourglass-outline"
         slot="start"
         color="warning"
       ></ion-icon>
       <ion-label>Aguardando Atualizações</ion-label>
-      <p>19/12/2023 11:47:00</p>
+      <p>{{upDateAt}}</p>
     </ion-item>
     <ion-item lines="nome">
       <ion-label>
-        <p>Novas atualizações</p>
-        <p>Notas: atualizações 0.01</p>
+        <p>{{createdAt}}</p>
+        <p>Notas: {{notes}} 0.01</p>
       </ion-label>
     </ion-item>
     <ion-button *ngIf="hasFooter" color="success" fill="clear" size="full">

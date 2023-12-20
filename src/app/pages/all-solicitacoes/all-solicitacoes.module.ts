@@ -1,3 +1,5 @@
+import { PreloadAllModules } from '@angular/router';
+
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -10,12 +12,16 @@ import { AllSolicitacoesPageRoutingModule } from './all-solicitacoes-routing.mod
 import { AllSolicitacoesPage } from './all-solicitacoes.page';
 
 
+
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AllSolicitacoesPageRoutingModule
+    AllSolicitacoesPageRoutingModule,
+
+
   ],
   declarations: [AllSolicitacoesPage,
 
