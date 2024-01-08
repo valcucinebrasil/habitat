@@ -13,10 +13,10 @@
     "@angular/service-worker": "^17.0.2",
     "@capacitor/app": "next",
     "@capacitor/core": "next",
-    "@capacitor/haptics": "5.0.6",
+    "@capacitor/haptics": "next",
     "@capacitor/keyboard": "next",
     "@capacitor/push-notifications": "next",
-    "@capacitor/status-bar": "5.0.6",
+    "@capacitor/status-bar": "next",
     "@ionic/angular": "^7.0.0",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
@@ -32,7 +32,7 @@
     "@angular/compiler-cli": "^17.0.2",
     "@angular/language-service": "^17.0.2",
     "@capacitor/cli": "next",
-    "@ionic/angular-toolkit": "^9.0.0",
+    "@ionic/angular-toolkit": "10.0.0",
     "@types/jasmine": "~5.1.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
@@ -73,19 +73,19 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "5332065953543709185"
+        "hash": "2690691351891389949"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "7650657662886778860"
+        "hash": "4610221598335143073"
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "986018342329414341"
+        "hash": "15886206255130015702"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "8386201364873606811"
+        "hash": "1603395484943123724"
       },
       {
         "file": ".vscode/extensions.json",
@@ -93,7 +93,7 @@
       },
       {
         "file": ".vscode/settings.json",
-        "hash": "1151538777131426085"
+        "hash": "4860626254439071084"
       },
       {
         "file": "README.md",
@@ -121,11 +121,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "15361413301338154323"
+        "hash": "16270884243378923989"
       },
       {
         "file": "package.json",
-        "hash": "888618851784859063"
+        "hash": "4127390928090422258"
       },
       {
         "file": "src/app/app-routing.module.ts",
@@ -201,7 +201,7 @@
       },
       {
         "file": "src/app/pages/all-solicitacoes/all-solicitacoes.module.ts",
-        "hash": "8189065745092214694"
+        "hash": "4940359161639699675"
       },
       {
         "file": "src/app/pages/all-solicitacoes/all-solicitacoes.page.html",
